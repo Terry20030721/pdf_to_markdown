@@ -6,7 +6,7 @@ import zipfile
 from core.converter import process_pdf_with_images # 假設你更新了核心邏輯名
 
 st.set_page_config(page_title="PDF 轉 Markdown 工具", layout="wide")
-st.title("📄 專業 PDF 轉檔工具 (含圖片提取)")
+st.title("📄 專業 PDF 轉檔工具")
 
 uploaded_file = st.file_uploader("請上傳 PDF 檔案", type="pdf")
 
